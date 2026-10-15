@@ -1,0 +1,13 @@
+[testvm]
+
+[artemistests:children]
+testvm
+
+[artemistests_common_config:children]
+testvm
+
+[artemistests_postgres:children]
+testvm
+
+[artemistests_local_vc_ci:children]
+testvm
